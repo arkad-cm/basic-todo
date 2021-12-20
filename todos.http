@@ -1,0 +1,26 @@
+POST http://localhost:8000/todos
+Content-Type: application/json
+
+{
+  "title": "A Sample 1 Todo",
+  "description": "This is another sample todo description - One"
+}
+
+###
+
+PATCH http://localhost:8000/todos/1
+Content-Type: application/json
+
+{
+  "title": "Hello World!"
+}
+
+###
+
+PUT http://localhost:8000/todos/1
+Content-Type: application/json
+
+###
+
+DELETE http://localhost:8000/todos/5
+Content-Type: application/json
